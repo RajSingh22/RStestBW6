@@ -21,7 +21,7 @@
     <agentPort>8079</agentPort>
     <truststorePassword></truststorePassword>
     <agentAuth></agentAuth>
-    <agentHost>rajsing-t460</agentHost>
+    <agentHost>192.168.0.2</agentHost>
     <httpPort>9093</httpPort>
     <appNode>rstestappnode01</appNode>
     <osgiPort>9094</osgiPort>
