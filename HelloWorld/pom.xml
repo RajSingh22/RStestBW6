@@ -21,7 +21,7 @@
     <agentPort>8079</agentPort>
     <truststorePassword></truststorePassword>
     <agentAuth></agentAuth>
-    <agentHost>52.172.210.94</agentHost>
+    <agentHost>52.172.156.146</agentHost>
     <httpPort>9093</httpPort>
     <appNode>rstestappnode01</appNode>
     <osgiPort>9094</osgiPort>
