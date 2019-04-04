@@ -12,6 +12,9 @@
   <packaging>bwmodule</packaging>
     <properties>
         <sonar.sources>.</sonar.sources>
+        <sonar.host.url>http://sonarqube.centralindia.cloudapp.azure.com:9000</sonar.host.url>
+        <sonar.log.level>DEBUG</sonar.log.level>
+        <sonar.verbose>true</sonar.verbose>
         </properties>
   <dependencies>
     <dependency>
