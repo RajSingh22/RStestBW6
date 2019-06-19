@@ -6,11 +6,7 @@
   <artifactId>HelloWorld.parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <modules>
-    <module>..\HelloWorld.module</module>
-    <module>..\HelloWorld</module>
-  </modules>
-  <repository>
+    <repository>
   <id>dev-azure-com-rstestdevops-bw6</id>
   <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
   <releases>
@@ -30,7 +26,11 @@
     <enabled>true</enabled>
   </snapshots>
 </distributionManagement>  
-  <build>
+  <modules>
+    <module>..\HelloWorld.module</module>
+    <module>..\HelloWorld</module>
+  </modules>
+    <build>
     <plugins>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
