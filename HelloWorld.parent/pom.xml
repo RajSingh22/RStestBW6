@@ -6,26 +6,6 @@
   <artifactId>HelloWorld.parent</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <repository>
-  <id>dev-azure-com-rstestdevops-bw6</id>
-  <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-  </repository>  
-   <distributionManagement>
-  <id>dev-azure-com-rstestdevops-bw6</id>
-  <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-  </distributionManagement>  
   <modules>
     <module>..\HelloWorld.module</module>
     <module>..\HelloWorld</module>
