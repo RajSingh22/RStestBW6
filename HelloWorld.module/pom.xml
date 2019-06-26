@@ -26,17 +26,17 @@
   </dependencies>
   <repositories>
    <id>dev-azure-com-rstestdevops-bw6</id>
-  <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
+    <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
+     <releases>
+       <enabled>true</enabled>
+     </releases>
+      <snapshots>
+       <enabled>true</enabled>
+      </snapshots>
   </repositories>  
    <distributionManagement>
-  <id>dev-azure-com-rstestdevops-bw6</id>
-  <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
+    <id>dev-azure-com-rstestdevops-bw6</id>
+    <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
