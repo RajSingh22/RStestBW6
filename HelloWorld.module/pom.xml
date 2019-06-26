@@ -24,8 +24,8 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-      <repositories>
-  <id>dev-azure-com-rstestdevops-bw6</id>
+  <repositories>
+   <id>dev-azure-com-rstestdevops-bw6</id>
   <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
   <releases>
     <enabled>true</enabled>
