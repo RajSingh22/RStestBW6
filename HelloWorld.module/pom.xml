@@ -24,7 +24,8 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <repositories>
+  <distributionManagement>
+   <repositories>
     <id>dev-azure-com-rstestdevops-bw6</id>
     <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
      <releases>
@@ -33,16 +34,7 @@
       <snapshots>
        <enabled>true</enabled>
       </snapshots>
-  </repositories>  
-   <distributionManagement>
-     <id>dev-azure-com-rstestdevops-bw6</id>
-    <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
+   </repositories>  
   </distributionManagement>
  <build>
     <sourceDirectory>src</sourceDirectory>
