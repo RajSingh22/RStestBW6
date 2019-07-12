@@ -18,7 +18,13 @@
         </properties>
   <dependencies>
     <dependency>
-    <distributionManagement>
+      <groupId>com.tibco.plugins</groupId>
+      <artifactId>com.tibco.bw.palette.shared</artifactId>
+      <version>6.1.100</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <distributionManagement>
    <repository>
     <id>dev-azure-com-rstestdevops-bw6</id>
     <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
@@ -30,12 +36,6 @@
       </snapshots>
    </repository>  
   </distributionManagement>
-      <groupId>com.tibco.plugins</groupId>
-      <artifactId>com.tibco.bw.palette.shared</artifactId>
-      <version>6.1.100</version>
-      <scope>provided</scope>
-    </dependency>
-  </dependencies>
      <build>
     <sourceDirectory>src</sourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
