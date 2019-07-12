@@ -24,7 +24,10 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
+     <build>
+    <sourceDirectory>src</sourceDirectory>
+    <outputDirectory>target/classes</outputDirectory>
+   <distributionManagement>
    <repository>
     <id>dev-azure-com-rstestdevops-bw6</id>
     <url>https://pkgs.dev.azure.com/rstestdevops/_packaging/Bw6/maven/v1</url>
@@ -36,9 +39,6 @@
       </snapshots>
    </repository>  
   </distributionManagement>
-   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <outputDirectory>target/classes</outputDirectory>
       <plugins>
       <plugin>
         <groupId>com.tibco.plugins</groupId>
