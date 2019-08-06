@@ -24,7 +24,7 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-     <build>
+   <build>
     <sourceDirectory>src</sourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
       <plugins>
